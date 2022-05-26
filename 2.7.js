@@ -7,7 +7,7 @@ var ch;
 var total = 0;
 
 for (i = 0; i < n; i++) {
-    ch = new Number (readlineSync.question("Ecrit un chiffre : "));
+    ch = new Number (readlineSync.question("Donne un chiffre : "));
     total += ch;
 }
 

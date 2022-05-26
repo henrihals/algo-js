@@ -13,7 +13,7 @@ var nbrefois = new Number (
 );
 
 for (i = 0; i < nbrefois; i++) {
-    ch = new Number (readlineSync.question("Ecrit un chiffre : "));
+    ch = new Number (readlineSync.question("Donne un chiffre : "));
     arr.push(ch);
     console.log(arr.join());
     total += ch;
