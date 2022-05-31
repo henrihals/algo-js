@@ -1,18 +1,27 @@
 const readlineSync = require("readline-sync");
 
-let n = new Number(
-    readlineSync.question("Combien de nombres aléatoires souhaites-tu ? ")
-);
-
-function multiRand(n) {
-    return n;
-}
-
-function rand10() {
-    return (multiRand) * (Math.random() * 10);
-}
-
 // Cette fonction permet de sortir un nombre aléatoire entre 0 et 10. 
 // Si l'on souhaite dépasser le chiffre 10, il suffit de changer le 10 par un autre nombre.
 
-console.log(rand10());
+function rand10() {
+  return Math.random() * 10;
+}
+    
+let n = new Number(
+  readlineSync.question("Combien de nombres aleatoires souhaites-tu ? ")
+);
+
+ // Cette fonction permet de multiplier le rand10 par le chiffre de son choix pour obtenir autant de chiffres aléatoires que l'n souhaite
+
+function multiRand() {
+  let array = [];
+    for (let i = 1; i <= n; i++) {
+      //let i = rand10();
+      array.push(rand10());
+    }
+  return array;
+}
+    
+console.log(multiRand());
+
+// Est-il possible de le faire sans mettre les chiffres dans un tableau?
