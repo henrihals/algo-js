@@ -1,7 +1,7 @@
 const readlineSync = require("readline-sync");
 
 function rand10() {
-    return Math.random() * 10;
+    return Math.floor(Math.random() * 10 + 1);
   }
 
 // Cette fonction permet de sortir un nombre aléatoire entre 0 et 10. 

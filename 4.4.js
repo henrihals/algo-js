@@ -4,7 +4,7 @@ const readlineSync = require("readline-sync");
 // Si l'on souhaite dépasser le chiffre 10, il suffit de changer le 10 par un autre nombre.
 
 function rand10() {
-  return Math.random() * 10;
+  return Math.floor(Math.random() * 10 + 1);
 }
     
 let nbrealeatoire = new Number(
