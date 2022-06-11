@@ -1,3 +1,10 @@
+/* Write a program that will add all the elements of an array.
+
+Test it with the following arrays:
+
+[1, 2, 3, 4, 5] => 15
+[100, 101, 102] => 303 */
+
 const readlineSync = require("readline-sync");
 
 var arr = [];

@@ -1,3 +1,7 @@
+/* In the code below, there is a prewritten class named: Animal.
+From this class, create the two classes, Cat and Dog. They will each have two properties, 
+name and greeting (the second property must be static).*/
+
 const readlineSync = require("readline-sync");
 
 class Animal {

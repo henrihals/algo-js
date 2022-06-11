@@ -1,3 +1,6 @@
+/* Count from 1 to 100. For every even number display the result of their division by 2. 
+For every odd number display the result of their multiplication by 3. */
+
 const readlineSync = require("readline-sync");
 
 let i_even = 0;

@@ -1,3 +1,5 @@
+/* Try to refactor the const declarations to use a single line of destructuring: */
+
 let test = function nestedArrayAndObject() {
 
     const info = {

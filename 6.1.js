@@ -1,3 +1,5 @@
+/* In the code below, there is a class defined, named: Cat. Copy-paste it in your js file. */
+
 const readlineSync = require("readline-sync");
 
 class Cat {

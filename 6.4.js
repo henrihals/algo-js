@@ -1,3 +1,7 @@
+/* Create a class named Person. It will have two properties, firstname and lastname, as well as a getter 
+name, which will return "[firstname] [lastname]", and a setter name, which will divide the full name 
+on the basis of a space: the first element will be the firstname, the second the lastname. */
+
 const readlineSync = require("readline-sync");
 
 class Human {
