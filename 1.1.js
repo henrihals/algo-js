@@ -1,3 +1,5 @@
+/* Define a variable and display it in the console. */
+
 const readlineSync = require("readline-sync");
 
 var a = 6;
